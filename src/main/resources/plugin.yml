@@ -1,0 +1,6 @@
+name: CheckMoveOneBlock
+version: '${project.version}'
+main: me.checkmoveoneblock.CheckMoveOneBlock
+authors: [ KIM ]
+description: KIM
+api-version: 1.13
