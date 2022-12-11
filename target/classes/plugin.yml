@@ -1,6 +1,0 @@
-name: CheckMoveOneBlock
-version: '1.0-SNAPSHOT'
-main: me.checkmoveoneblock.CheckMoveOneBlock
-authors: [ KIM ]
-description: KIM
-api-version: 1.13
