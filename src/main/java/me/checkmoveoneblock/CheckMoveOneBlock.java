@@ -25,5 +25,7 @@ public final class CheckMoveOneBlock extends JavaPlugin implements Listener {
     @Override
     public void onDisable() {
         Bukkit.getConsoleSender().sendMessage("[CheckMoveOneBlock] Plugin disabled");
+        new CheckMovesOneBlock(this).getPlayerdontmove().clear();
+        new CheckMovesOneBlock(this).getPlayermove().clear();
     }
 }
